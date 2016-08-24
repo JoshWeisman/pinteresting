@@ -5,4 +5,4 @@ This is the pinteresting sample application for
 
 by [Mattan Griffel](http://mattangriffel.com)
 
-I'm changing this README document one more time, to get a little more practice pushing up to GitHub before I continue with his excellent program. Wish me luck.
+I'm changing this README document one more time. Let's see if I can figure out how to push it up to GitHub without help from the tutorial. Wish me luck.
