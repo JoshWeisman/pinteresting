@@ -1,6 +1,39 @@
-<h1>Hi Leesa!</h1>
-<p>I love you...yay we are love and it is troot!!!</p>
+<!-- ••••• SECTION 1 ••••• -->
 
-<p>
-  <%= link_to "Hello!", "http://www.google.com" %>
-</p>
+  <!-- BIG GRAY BOX, WITH "HI LEESA!" AND "CLICK HERE TO..." INSIDE IT-->
+  <div class="jumbotron">
+
+    <h1>
+    Hi Leesa!
+    </h1>
+
+    <p>
+    Click here to go to Google and <%= link_to "Search", "http://google.com",
+    class: "btn btn-danger btn-lg active glyphicon glyphicon-star" %>
+    </p>
+
+  </div>
+
+<!-- ••••• END SECTION 1 ••••• -->
+
+
+
+
+<!-- ••••• SECTION 2 ••••• -->
+
+  <div class="jumbotron">
+
+    <!-- YELLOW "LOVE AND TROOT!" BUTTON-->
+    <!-- "btn" means you're creating a button -->
+    <!-- "btn-warning" means you're making the button yellow -->
+    <!-- "btn-block" means the button is super wide -->
+    <!-- "active" means the button has an inner shadow -->
+    <p>
+    <%= link_to "Love and Troot", "https://www.google.com/#q=love+and+troot",
+    class: "btn btn-warning btn-block active"
+    %>
+    </p>
+
+  </div>
+
+<!-- ••••• END SECTION 2 ••••• -->
