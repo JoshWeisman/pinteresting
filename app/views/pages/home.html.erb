@@ -9,7 +9,7 @@
 
     <p>
     Click here to go to Google and <%= link_to "Search", "http://google.com",
-    class: "btn btn-danger btn-lg active glyphicon glyphicon-star" %>
+    class: "btn btn-danger btn-lg active" %>
     </p>
 
   </div>
@@ -23,15 +23,18 @@
 
   <div class="jumbotron">
 
-    <!-- YELLOW "LOVE AND TROOT!" BUTTON-->
-    <!-- "btn" means you're creating a button -->
-    <!-- "btn-warning" means you're making the button yellow -->
-    <!-- "btn-block" means the button is super wide -->
-    <!-- "active" means the button has an inner shadow -->
+    <!-- YELLOW "LOVE AND TROOT!" BUTTON #1-->
     <p>
-    <%= link_to "Love and Troot", "https://www.google.com/#q=love+and+troot",
-    class: "btn btn-warning btn-block active"
+    <%= link_to " Love and Troot", "https://www.google.com/#q=love+and+troot",
+    class: "btn btn-warning btn-block active glyphicon-star"
     %>
+    </p>
+
+    <!-- YELLOW "LOVE AND TROOT!" BUTTON #2-->
+    <p>
+      <button type="button" class="btn btn-block btn-warning active">
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Love and Troot
+      </button>
     </p>
 
   </div>
