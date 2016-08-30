@@ -7,7 +7,7 @@ $btn-success-bg: #f39c12;
 $btn-danger-bg: #c0392b;
 $btn-warning-bg: #ecf0f1;
 $btn-warning-color: #2c3e50;
-$btn-warning-border: #2c3e50;
+$btn-warning-border: #95a5a6;
 
 $navbar-default-bg: #ecf0f1;
 $navbar-default-border:#ecf0f1;
@@ -20,10 +20,18 @@ $navbar-height: 40px;
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
-.center {
+.alignCenter {
   text-align: center;
 }
 
 .fontTrocchi {
   font-family: 'Trocchi' !important;
+}
+
+.navbar-brand {
+  font-weight: bold
+}
+
+.alignRight {
+  text-align: right;
 }
