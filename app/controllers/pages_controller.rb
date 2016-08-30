@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def hello
   end
+
+  def whatistroot
+  end
 end

@@ -1,2 +1,29 @@
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC';
+@import 'https://fonts.googleapis.com/css?family=Trocchi';
+
+$body-bg: #bdc3c7;
+
+$btn-success-bg: #f39c12;
+$btn-danger-bg: #c0392b;
+$btn-warning-bg: #ecf0f1;
+$btn-warning-color: #2c3e50;
+$btn-warning-border: #2c3e50;
+
+$navbar-default-bg: #ecf0f1;
+$navbar-default-border:#ecf0f1;
+$navbar-default-link-color: #c0392b;
+$navbar-default-link-hover-color: #ecf0f1;
+$navbar-default-link-hover-bg: #c0392b;
+$navbar-default-brand-color: #c0392b;
+$navbar-height: 40px;
+
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+.center {
+  text-align: center;
+}
+
+.fontTrocchi {
+  font-family: 'Trocchi' !important;
+}

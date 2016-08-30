@@ -9,5 +9,7 @@ get "about" => "pages#about"
 get "hello" => "pages#hello"
   # NOTE: This creates a "hello" path
 
+get "whatistroot" => "pages#whatistroot"
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
